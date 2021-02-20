@@ -106,7 +106,7 @@ func TestRSAPSSSaltLengthCompatibility(t *testing.T) {
 		},
 	}
 
-	// Behaves as before https://github.com/dgrijalva/jwt-go/issues/285 fix.
+	// Behaves as before https://github.com/dimall-id/jwt-go/issues/285 fix.
 	ps256SaltLengthAuto := &jwt.SigningMethodRSAPSS{
 		SigningMethodRSA: jwt.SigningMethodPS256.SigningMethodRSA,
 		Options: &rsa.PSSOptions{

@@ -2,7 +2,7 @@ package jwt_test
 
 import (
 	"fmt"
-	"github.com/dgrijalva/jwt-go"
+	"github.com/dimall-id/jwt-go"
 	"io/ioutil"
 	"time"
 )
